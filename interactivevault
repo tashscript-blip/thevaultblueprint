@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Vault | Digital Identity Foundation</title>
+    <style>
+        :root {
+            --gold: #c5a059;
+            --dark-bg: #121212;
+            --card-bg: #1e1e1e;
+            --input-bg: #2a2a2a;
+            --text: #f4f4f4;
+            --border: #333;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--gold);
+            padding-bottom: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .section-box {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-left: 5px solid var(--gold);
+        }
+
+        h2 { color: var(--gold); text-transform: uppercase; letter-spacing: 1px; }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.2rem;
+        }
+
+        label { margin-bottom: 0.5rem; font-weight: bold; color: #b0b0b0; }
+
+        input, textarea, select {
+            background: var(--input-bg);
+            border: 1px solid var(--border);
+            color: white;
+            padding: 0.8rem;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        .security-warning {
+            background: rgba(197, 160, 89, 0.1);
+            border: 1px solid var(--gold);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .btn-print {
+            background: var(--gold);
+            color: black;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+
+        @media print {
+            .no-print { display: none; }
+            body { background: white; color: black; }
+            .section-box { border: 1px solid #ccc; background: white; color: black; }
+            input, textarea { border: none; background: #f9f9f9; color: black; }
+            h2 { color: #8a6d3b; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>THE DIGITAL VAULT BLUEPRINT</h1>
+        <p>Interactive Dossier — 2026 Edition</p>
+    </header>
+
+    <div class="section-box">
+        <h2>Section 1: Master Identity Sheet</h2>
+        <p>Core personal details for trusted family to confirm identity for legal and financial matters.</p>
+        
+        <div class="form-group">
+            <label>Full Legal Name</label>
+            <input type="text" placeholder="John Doe">
+        </div>
+        <div class="form-group">
+            <label>Social Security Number</label>
+            <input type="password" placeholder="***-**-****">
+        </div>
+        <div class="form-group">
+            <label>Primary Phone</label>
+            <input type="text" placeholder="+1 (555) 000-0000">
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2>Section 3: Crypto & Digital Assets</h2>
+        <div class="security-warning">
+            ⚠️ <strong>CRITICAL SECURITY:</strong> Never type your seed phrase into this form. Only record its physical location.
+        </div>
+        
+        <div class="form-group">
+            <label>Wallet Name & Public Address</label>
+            <input type="text" placeholder="Main Ledger - 0x...">
+        </div>
+        <div class="form-group">
+            <label>Physical Location of Seed Phrase</label>
+            <input type="text" placeholder="Safe Deposit Box #4">
+        </div>
+        <div class="form-group">
+            <label>Retrieval Instructions</label>
+            <textarea rows="2" placeholder="Instructions for heirs on how to access the physical phrase."></textarea>
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2>Section 5: Emergency Protocols</h2>
+        <p>Step-by-step guidance for your trusted person to manage your affairs.</p>
+
+        <div class="form-group">
+            <label>IF SOMETHING HAPPENS TO ME, DO THE FOLLOWING IMMEDIATELY:</label>
+            <textarea rows="3" placeholder="Step 1: Contact X, Step 2: Retrieve Y..."></textarea>
+        </div>
+        <div class="form-group">
+            <label>Vault Access Location / Key</label>
+            <input type="text" placeholder="Where the instructions are stored">
+        </div>
+    </div>
+
+    <div class="section-box">
+        <h2>Section 6: Legacy Notes</h2>
+        <div class="form-group">
+            <label>Ethical Will (Values, Beliefs, Lessons)</label>
+            <textarea rows="6" placeholder="Write your guiding principles for future generations..."></textarea>
+        </div>
+    </div>
+
+    <div class="no-print" style="margin-bottom: 50px;">
+        <button class="btn-print" onclick="window.print()">GENERATE PDF / PRINT VAULT</button>
+        <p style="text-align: center; font-size: 0.8rem; margin-top: 10px; color: #b0b0b0;">
+            Note: This system does not save your data to a server. You must print or save as PDF to keep your information.
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
