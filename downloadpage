@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Your Vault | Digital Vault Blueprint</title>
+    <style>
+        :root {
+            --primary-gold: #c5a059;
+            --bg-dark: #121212;
+            --card-bg: #1e1e1e;
+            --text-light: #f4f4f4;
+            --text-dim: #b0b0b0;
+            --accent-green: #4caf50;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .success-banner {
+            color: var(--accent-green);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+
+        .download-box {
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 12px;
+            border: 1px solid #333;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .file-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            color: var(--primary-gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .file-meta {
+            color: var(--text-dim);
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--primary-gold);
+            color: #000;
+            padding: 1.2rem 3rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background-color: #d4b475;
+            transform: translateY(-2px);
+        }
+
+        .security-notice {
+            margin-top: 3rem;
+            background: rgba(197, 160, 89, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            text-align: left;
+            border-left: 4px solid var(--primary-gold);
+        }
+
+        .security-notice h4 {
+            margin-top: 0;
+            color: var(--primary-gold);
+        }
+
+        footer {
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+        }
+
+        ul {
+            padding-left: 1.2rem;
+            color: var(--text-dim);
+        }
+
+        li { margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="success-banner">✓ Your Purchase is Confirmed</div>
+        
+        <div class="download-box">
+            <div class="file-icon">📄</div>
+            <h1>Your Digital Vault Blueprint</h1>
+            <p class="file-meta">Version 1.0 (2026) | Secure PDF Interactive Worksheet</p>
+            
+            <a href="#" class="download-btn">DOWNLOAD VAULT (.PDF)</a>
+            
+            <div style="margin-top: 1.5rem;">
+                <a href="#" style="color: var(--text-dim); font-size: 0.8rem; text-decoration: underline;">Download Bonus: Family Access Card (Printable)</a>
+            </div>
+        </div>
+
+        <div class="security-notice">
+            <h4>Next Steps for Security</h4>
+            <ul>
+                <li><strong>Fill & Encrypt:</strong> Once downloaded, fill out the sections [cite: 10] and store the file in an encrypted location like a local drive or password-protected ZIP[cite: 77].</li>
+                <li><strong>Seed Phrases:</strong> Never type your crypto seed phrases directly into this or any digital file. Record their physical location in Section 3.2[cite: 63].</li>
+                <li><strong>Share Smart:</strong> Only share the vault access instructions with one trusted person[cite: 12].</li>
+                <li><strong>Annual Review:</strong> Set a calendar reminder to review and update your assets once per year[cite: 13].</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 LEGACY GROVE CODEX LLC. ALL RIGHTS RESERVED. [cite: 14]
+    </footer>
+
+</body>
+</html>
