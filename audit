@@ -1,0 +1,79 @@
+# [FREE DOWNLOAD] The 10-Minute Digital Assets Audit
+
+### *Is your digital legacy secure or scattered? Check the boxes to find out.*
+
+This audit helps you identify exactly where your "Digital Identity Foundation" stands. Use this to inventory your assets before migrating them into your **Digital Vault Blueprint**.
+
+---
+
+### **1. THE ACCESS AUDIT**
+
+*If you were unreachable today, could your family unlock these devices?*
+
+* [ ] **Primary Smartphone:** Is the passcode documented?
+* [ ] **Master Laptop/Desktop:** Is the user login recorded?
+* [ ] **Home Wi-Fi:** Is the router admin password stored?
+* [ ] **Hardware Keys:** Are YubiKeys or 2FA backups physically located?
+
+### **2. THE FINANCIAL FOOTPRINT**
+
+*Do you have a "Map" of where your money lives online?*
+
+* [ ] **Primary Banking:** List of institutions (not account numbers).
+* [ ] **Investment Portfolios:** Brokerage logins (Robinhood, Schwab, etc.).
+* [ ] **Hidden Subscriptions:** When was the last time you audited your "Auto-Pay" list?
+* [ ] **Revenue Streams:** Stripe, PayPal, or AdSense accounts for your business.
+
+### **3. THE CRYPTO & WEB3 RISK-CHECK**
+
+*Note: Never type seed phrases here. Only audit their existence.*
+
+* [ ] **Hot Wallets:** (MetaMask, Phantom, etc.) Are public addresses listed?
+* [ ] **Cold Storage:** Is the physical location of your Ledger/Trezor known?
+* [ ] **Exchange Accounts:** (Coinbase, Binance, etc.) Is 2FA recovery setup?
+* [ ] **Seed Phrases:** Are they stored on paper/steel *offline*?
+
+### **4. THE LEGACY & CLOUD AUDIT**
+
+*Where are your memories and documents stored?*
+
+* [ ] **Cloud Storage:** Google Drive, iCloud, or Dropbox.
+* [ ] **Social Media:** Have you designated a "Legacy Contact" on Facebook/Google?
+* [ ] **Domain Names:** Do you know when your URLs expire?
+* [ ] **Legal Vault:** Do you have digital copies of your Will and Power of Attorney?
+
+---
+
+## **YOUR SCORE**
+
+* **0-5 Boxes:** **CRITICAL RISK.** Your digital life is "Dark." Your family would likely be locked out of everything.
+* **6-12 Boxes:** **VULNERABLE.** You have a foundation, but the "connective tissue" is missing.
+* **13-16 Boxes:** **SECURE.** You are ready to finalize your **Digital Vault Blueprint**.
+
+---
+
+### **NEXT STEP: The "Break Glass" Solution**
+
+Don't just audit your assets—protect them. The **Digital Vault Blueprint (2026 Edition)** provides the exact framework to turn this checklist into a secure, encrypted dossier for your heirs.
+
+**[GET THE FULL BLUEPRINT HERE]**
+
+---
+
+*© 2026 Legacy Grove Codex LLC. All Rights Reserved.*
+
+---
+
+### **Implementation Tip for your Website:**
+
+In your HTML code, you can add a small "Call to Action" section right above the footer:
+
+```html
+<div class="card" style="background: rgba(197, 160, 89, 0.05); border: 1px dashed var(--primary-gold);">
+    <h3>🎁 Free Bonus</h3>
+    <p>Not ready for the full Blueprint? Download our <strong>10-Minute Digital Assets Audit</strong> to see where your vulnerabilities are.</p>
+    <input type="email" placeholder="Enter your email" style="padding: 0.5rem; width: 60%;">
+    <button class="cta-button" style="padding: 0.5rem 1rem; margin-top: 0;">Send My Audit</button>
+</div>
+
+```
